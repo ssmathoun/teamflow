@@ -1,7 +1,7 @@
 import express from "express";
 import { register, login } from "../controllers/userController.js";
 
-const router = express.Router()
+const router = express.Router();
 
 /**
  * @route   POST /register
@@ -9,7 +9,6 @@ const router = express.Router()
  * @access  Public
  */
 router.post("/register", register);
-
 
 /**
  * @route   POST /login
